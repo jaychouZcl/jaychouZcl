@@ -1,0 +1,7 @@
+1.添加文件、文件名
+git add 文件名|文件夹名
+2.commit
+git commit -m "版本" 文件名|文件夹名
+3.push
+git push 地址 master
+eg:git push https://github.com/jaychouZcl/jaychouZcl.git/ master

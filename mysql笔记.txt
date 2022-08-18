@@ -1,0 +1,4 @@
+1、join主要根据两表或多表之间列的关系，从这些表中进行数据的查询。
+	a、inner join：A、B共有，也就是交集。
+	b、left jion: A独有+AB共有
+	c、right jion：B独有+AB共有
