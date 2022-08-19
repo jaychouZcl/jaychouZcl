@@ -5,3 +5,9 @@ git commit -m "版本" 文件名|文件夹名
 3.push
 git push 地址 master
 eg:git push https://github.com/jaychouZcl/jaychouZcl.git/ master
+
+4.版本冲突 先pull 在合并 vim修改文件
+
+提交合并后的内容  版本号加1 不需要添加文件名 添加文件名会一直处于合并状态
+git commit -m "test3" test.txt  （错误示范）
+git commit -m "test3" （正确示范）
